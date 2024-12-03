@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+main {
+  margin-top: 6%;
+}
+
+.about-header {
+    padding-top: 2%;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+  
+.about-header h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #2D3651;
+  }
+  
+.about-header p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    font-weight: 500;
+    text-align: center;
+    padding: 0% 20%;
+  }
+  
+.why-choose-us {
+    margin-top: 2%;
+    padding-left: 10%;
+    color: #2D3651;
+  }
+  
+.why-choose-us h2 {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 2%;
+    font-weight: 500;
+    color: #2D3651;
+  }
+  
+.features {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20%;
+  }
+  
+.feature {
+    display: flex;
+    align-items: flex-start;
+    /* text-align: center; */
+    gap: 10px;
+  }
+  
+.feature img {
+    width: 40px;
+    height: 40px;
+  }
+  
+.feature p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding-right: 10%;
+  }
+  
+.affordable-pricing {
+    margin-top: 10rem;
+    margin-bottom: 8%;
+    text-align: center;
+  }
+  
+.affordable-pricing h2 {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    font-weight: 500;
+    color: #2D3651;
+  }
+  
+.affordable-pricing p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding: 0% 10%;
+    text-align: left;
+  }
+
+#info {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #2D3651;
+    padding-top: 5%;
+}
+
+@media (max-width: 768px) {
+
+  
+.features {
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.about-header h1 {
+    font-size: 3rem;
+}
+
+.about-header p {
+    font-size: 100%;
+    padding: 0% 10%;
+}
+
+.affordable-pricing{
+    margin-top: 2rem;
+}
+.why-choose-us h2,
+.affordable-pricing h2 {
+    font-size: 1.8rem;
+}
+
+.feature p {
+    font-size: 14px;
+}
+
+#info{
+    font-size: .8rem;
+    padding: 5% 6% 2% 6%;
+}
+}
+  
+
+@media (max-width: 425px) {
+
+.about-us {
+      padding: 20px;
+    }
+  
+.about-header h1 {
+      font-size: 3rem;
+    }
+  
+.about-header p {
+      font-size: 100%;
+      line-height: 1.4;
+    }
+  
+.why-choose-us h2,
+.affordable-pricing h2 {
+    font-size: 1.5rem;
+}
+
+.feature img {
+    width: 30px;
+    height: 30px;
+}
+
+.feature p {
+    font-size: 100%;
+    line-height: 1.4;
+}
+
+.affordable-pricing p {
+    font-size: 100%;
+}
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    <title>Barbie's Iphone De Lucena</title>
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <nav>
+          <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+            <li><a href="index.html">PORTFOLIO</a></li>
+            <li><a href="skills.html" class="activeSB">SKILLS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+    
+          <ul class="topnav">
+            <li><img src="logo.png" alt="image logo" width="100"></li>
+            <li class="hideOnMobile"><a href="index.html">PORTFOLIO</a></li>
+            <li class="hideOnMobile"><a href="skills.html" class="active">SKILLS</a></li>
+            <li class="hideOnMobile"><a href="about.html">ABOUT</a></li>
+            <li class="hideOnMobile"><a href="contact.html">CONTACT</a></li>
+    
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+          </ul>
+        </nav>
+      </div>
+    
+      <script>
+        function showSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'flex'
+        }
+    
+        function hideSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'none'
+        }
+      </script>
+
+    <main>
+      <section class="about-us">
+        <div class="about-header">
+          <h1>ABOUT US</h1>
+          <p><b>Barbie’s iPhone de Lucena</b></p>
+          <br>
+          <p>
+            At Barbie’s iPhone de Lucena, we pride ourselves on being a reliable and trusted source for iPhones in Lucena City, 
+            Philippines, since 2017. With years of experience and a dedication to customer satisfaction, we’ve built a strong 
+            reputation among our clientele.
+          </p>
+        </div>
+      
+        <div class="why-choose-us">
+          <h2>WHY CHOOSE US?</h2>
+          <div class="features">
+            <div class="feature">
+              <img src="assets/aboutUs1.png" alt="Expertise Icon" />
+              <p><b>Expertise:</b> We've been in the iPhone business for over 7 years, ensuring that you receive 
+                only the best quality products and services.</p>
+            </div>
+            <div class="feature">
+              <img src="assets/aboutUs2.png" alt="Trust Icon" />
+              <p><b>Customer Trust:</b> Our commitment to delivering genuine products and excellent service has 
+                earned us a 100% recommendation rate from our happy customers.</p>
+            </div>
+            <div class="feature">
+              <img src="assets/aboutUs3.png" alt="Availability Icon" />
+              <p><b>Always Available:</b> We are always open and ready to cater to your tech needs. Whether you're 
+                looking to upgrade your iPhone or need assistance, we’re here to help.</p>
+            </div>
+            <div class="feature">
+              <img src="assets/aboutUs4.png" alt="Delivery Icon" />
+              <p><b>Delivery Service:</b> For your convenience, we offer reliable delivery services so that your new 
+                iPhone arrives at your doorstep hassle-free.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="affordable-pricing">
+          <h2>AFFORDABLE PRICING</h2>
+          <p>
+            We offer competitive prices and various iPhone models to meet your budget, ensuring quality at every price point. 
+            We invite you to explore our offerings and see why we’re the top choice for iPhone purchases in Lucena!
+          </p>
+
+          <h4 id="info"> About us | Lucena, Philippines | 0930 327 5850 | <a href="mailto:barbieheroeseminiano@gmail.com">barbieheroeseminiano@gmail.com</a></h4>
+        </div>
+      </section>
+      
+    </main>     
+    
+</body>
+</html>
