@@ -219,6 +219,7 @@ footer {
 footer p {
   margin-top: 30px;
   text-align: center;
+  color: #000000;
 }
 
 .social-buttons img:hover {
