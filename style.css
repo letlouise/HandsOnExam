@@ -199,9 +199,6 @@ section.section2 {
 .f-w-text-p {
     margin-bottom: 10px;
 }
-.f-w-article {
-    padding-right: 100px;
-}
 
 /* Contact/Footer */
 
@@ -216,6 +213,7 @@ footer {
   gap: 20px;
 }
 .social-buttons img {
+  margin-top: 50px;
   width: 70px;
 }
 footer p {
@@ -320,5 +318,9 @@ footer p {
   }
   .f-w-img img {
     width: 100%;
+  }
+  .f-w-article {
+    display: flex;
+    text-align: center;
   }
 }
